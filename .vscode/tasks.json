@@ -1,0 +1,20 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build emg-data-sample",
+            "type": "shell",
+            "command": "g++",
+            "args": [
+                "-g -IC:/Users/darre/Desktop/myo-sdk-win-0.9.0/myo-sdk-win-0.9.0/include",
+                "samples/emg-data-sample.cpp",
+                "-o",
+                "hello"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        }
+    ]
+}

@@ -1,0 +1,16 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(387,5): warning MSB8028: The intermediate directory (x64\Debug\) contains files shared from another project (hello-myo-VisualStudio2013.vcxproj, multiple-myos-VisualStudio2012.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  multiple-myos.cpp
+c:\users\darre\desktop\myo-sdk-win-0.9.0\myo-sdk-win-0.9.0\include\myo\cxx\impl\../detail/ThrowOnError.hpp(39): warning C4297: 'myo::ThrowOnError::~ThrowOnError': function assumed not to throw an exception but does
+  c:\users\darre\desktop\myo-sdk-win-0.9.0\myo-sdk-win-0.9.0\include\myo\cxx\impl\../detail/ThrowOnError.hpp(39): note: destructor or deallocator has a (possibly implicit) non-throwing exception specification
+c:\users\darre\desktop\myo-sdk-win-0.9.0\myo-sdk-win-0.9.0\include\myo\cxx\impl\../detail/ThrowOnError.hpp(45): warning C4297: 'myo::ThrowOnError::~ThrowOnError': function assumed not to throw an exception but does
+  c:\users\darre\desktop\myo-sdk-win-0.9.0\myo-sdk-win-0.9.0\include\myo\cxx\impl\../detail/ThrowOnError.hpp(45): note: destructor or deallocator has a (possibly implicit) non-throwing exception specification
+multiple-myos.cpp(99): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+multiple-myos.cpp(111): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+multiple-myos.cpp(142): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+multiple-myos.cpp(150): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+multiple-myos.cpp(243): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\darre\desktop\myo-sdk-win-0.9.0\myo-sdk-win-0.9.0\samples\multiple-myos.cpp(242): warning C4700: uninitialized local variable 'betv' used
+c:\users\darre\desktop\myo-sdk-win-0.9.0\myo-sdk-win-0.9.0\samples\multiple-myos.cpp(242): warning C4700: uninitialized local variable 'bstv' used
+multiple-myos.obj : error LNK2019: unresolved external symbol "public: __cdecl DTW::SimpleDTW::SimpleDTW(unsigned __int64,unsigned __int64,double (__cdecl*)(class std::vector<double,class std::allocator<double> >,class std::vector<double,class std::allocator<double> >))" (??0SimpleDTW@DTW@@QEAA@_K0P6ANV?$vector@NV?$allocator@N@std@@@std@@1@Z@Z) referenced in function "int __cdecl compare_performance(int,int)" (?compare_performance@@YAHHH@Z)
+multiple-myos.obj : error LNK2019: unresolved external symbol "public: double __cdecl DTW::SimpleDTW::EvaluateWarpingCost(class std::vector<class std::vector<double,class std::allocator<double> >,class std::allocator<class std::vector<double,class std::allocator<double> > > >,class std::vector<class std::vector<double,class std::allocator<double> >,class std::allocator<class std::vector<double,class std::allocator<double> > > >)" (?EvaluateWarpingCost@SimpleDTW@DTW@@QEAANV?$vector@V?$vector@NV?$allocator@N@std@@@std@@V?$allocator@V?$vector@NV?$allocator@N@std@@@std@@@2@@std@@0@Z) referenced in function "int __cdecl compare_performance(int,int)" (?compare_performance@@YAHHH@Z)
+C:\Users\darre\Desktop\myo-sdk-win-0.9.0\myo-sdk-win-0.9.0\samples\x64\Debug\multiple-myos-VisualStudio2013.exe : fatal error LNK1120: 2 unresolved externals
